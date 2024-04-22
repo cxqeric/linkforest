@@ -78,25 +78,6 @@ const Index = () => {
             &quot;
           </span>
         </motion.p>
-        <div className="bg-slate-200 w-full p-6 mt-10 font-Montserrat text-center font-semibold tracking-wide flex justify-center items-center flex-col relative pb-20">
-          <p>
-            Link Forest Official App Launched With Analytics Feature 🎉 Download
-            Now!
-          </p>
-          <a href="https://play.google.com/store/apps/details?id=com.krish.linkforest&pcampaignid=pcampaignidMKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1">
-            <img
-              alt="Get it on Google Play"
-              src="https://play.google.com/intl/en_us/badges/static/images/badges/en_badge_web_generic.png"
-              className="h-20 mt-4"
-            />
-          </a>
-          <Lottie
-            animationData={PARTYPOPPER}
-            loop={true}
-            size={10}
-            className="w-32 absolute -bottom-4"
-          />
-        </div>
         <div className="mt-10">
           {!login && (
             <button
@@ -114,6 +95,18 @@ const Index = () => {
               Go To Dashboard
             </button>
           )}
+        </div>
+        <div className="bg-slate-200 w-full p-6 mt-10 font-Montserrat text-center font-semibold tracking-wide flex justify-center items-center flex-col relative">
+          <p>
+            Link Forest Official App Launched, Download for better experience!
+          </p>
+          <a href="https://play.google.com/store/apps/details?id=com.krish.linkforest&pcampaignid=pcampaignidMKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1">
+            <img
+              alt="Get it on Google Play"
+              src="https://play.google.com/intl/en_us/badges/static/images/badges/en_badge_web_generic.png"
+              className="h-20 mt-4"
+            />
+          </a>
         </div>
         <div className="w-[80%] mt-8 flex justify-center md:justify-evenly items-center flex-col md:flex-row">
           <motion.img
@@ -218,7 +211,7 @@ const Index = () => {
         </div>
         <div
           className="mt-10 mb-2 w-full cursor-pointer"
-          onClick={() => window.open("https://www.krishjotaniya.live")}
+          onClick={() => window.open("https://krishjotaniya.netlify.app/")}
         >
           <p className="font-Montserrat md:text-lg font-semibold py-3 text-center">
             Developed With ❤️ By Krish Jotaniya

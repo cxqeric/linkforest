@@ -61,13 +61,13 @@ const Navbar = () => {
   const menuHandler = (type) => {
     if (type === "Home") navigate("/");
     if (type === "Dashboard") navigate("/dashboard");
-    if (type === "Developer") window.open("https://www.krishjotaniya.live");
+    if (type === "Developer") window.open("https://krishjotaniya.netlify.app/");
     if (type === "Download App")
       window.open(
         "https://play.google.com/store/apps/details?id=com.krish.linkforest"
       );
     if (type === "Feedback")
-      window.open("https://www.krishjotaniya.live/contactme?ref=linkforest");
+      window.open("https://krishjotaniya.netlify.app/#contact");
     if (type === "Logout") logoutButtonHandler();
     if (type === "Login With Google") googleLoginEventHandler();
     setMenu(!menu);
