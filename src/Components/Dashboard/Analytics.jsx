@@ -100,9 +100,6 @@ const Analytics = () => {
 
   return (
     <div className="flex justify-center items-center flex-col">
-      <p className="font-Montserrat font-bold mb-4 text-xl w-full">
-        Quick Cards
-      </p>
       {analyticsData && (
         <section className="flex justify-evenly items-center w-full">
           <div className="w-full flex-col bg-slate-100 mx-5 px-3 py-2 rounded-md shadow">
@@ -124,7 +121,7 @@ const Analytics = () => {
             </p>
           </div>
           <div className="w-full flex-col bg-slate-100 mx-5 px-3 py-2 rounded-md shadow">
-            <p className="font-Montserrat text-sm mb-1 medium">All Time's</p>
+            <p className="font-Montserrat text-sm mb-1 medium">All Views's</p>
             <p className="font-Montserrat text-lg font-semibold">
               {analyticsData.total ? analyticsData.total : 0}
             </p>

@@ -125,7 +125,7 @@ const UserLink = () => {
 
   return (
     <div
-      className="flex justify-start items-center flex-col h-[100vh] pb-10"
+      className="flex justify-start items-center flex-col min-h-[100vh] pb-10"
       style={{
         backgroundColor: `${data?.customTheme?.background.toString(16)}`,
       }}
